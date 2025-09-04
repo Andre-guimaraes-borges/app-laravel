@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -59,3 +60,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# app-laravel
+Consumir via Laravel uma API de consulta de cep e possibilitar que no  cadastro do cliente ao ser informado o cep, o formulário preencha  automaticamente os demais campos com dados providos pela aplicação  Laravel; 
+>>>>>>> 89621822959ee8a3a8c463fb4c261357642ec2a3
