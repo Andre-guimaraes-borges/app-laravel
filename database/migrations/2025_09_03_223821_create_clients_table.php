@@ -10,7 +10,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->date('data_nascimento');
-            $table->string('cep', 9);
+            $table->string('cep', 8);
             $table->string('endereco');
             $table->string('numero', 10);
             $table->string('bairro');

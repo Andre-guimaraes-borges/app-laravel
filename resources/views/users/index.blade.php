@@ -49,8 +49,8 @@
     </div>
     <script>
     document.getElementById('cep').addEventListener('blur', function() {
-        alert('Buscando endereço para o CEP: ' + this.value);
-        var cep = this.value.replace(g, '');
+        // alert('Buscando endereço para o CEP: ' + this.value);
+        var cep = this.value.replace(/\D/g, '');
         if (cep.length === 8) {
             fetch(`/buscar-cep?cep=${cep}`)
                 .then(response => response.json())
